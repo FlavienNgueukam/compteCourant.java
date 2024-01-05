@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Welcome to the GBA, what do you want to do?");
 
         // créer un objet Comptecourant
-        CompteCourant flavienMoney = new CompteCourant("Flavien", 12000);
+        CompteCourant FlavienMoney = new CompteCourant("Flavien", 12000);
         FlavienMoney.afficherSolde();
         FlavienMoney.deposerArgent(300);
         FlavienMoney.afficherSolde();
